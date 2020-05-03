@@ -13,12 +13,15 @@ A simple way to add a context menu item for Windows to open Windows Terminal.
 
 Uninstall normally through "Add or remove programs".
 
-## License
+## Legal information
 
-[MIT License][license].
+This project is licensed under [MIT License][license].
 
 This project uses some parts of [Windows Terminal][wt-license].
+
+Project inspired by [shanselman/WindowsTerminalHere][inspired].
 
 [release]: https://github.com/rensatsu/windows-terminal-here/releases/latest
 [license]: https://github.com/rensatsu/windows-terminal-here/blob/master/LICENSE
 [wt-license]: https://github.com/microsoft/terminal/blob/a6a8937af7af1f98f7e0888b4b10cf5adf057990/LICENSE
+[inspired]: https://github.com/shanselman/WindowsTerminalHere
