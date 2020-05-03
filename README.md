@@ -20,5 +20,5 @@ Uninstall normally through "Add or remove programs".
 This project uses some parts of [Windows Terminal][wt-license].
 
 [release]: https://github.com/rensatsu/windows-terminal-here/releases/latest
-[license]: https://github.com/rensatsu/windows-terminal-here/LICENSE
+[license]: https://github.com/rensatsu/windows-terminal-here/blob/master/LICENSE
 [wt-license]: https://github.com/microsoft/terminal/blob/a6a8937af7af1f98f7e0888b4b10cf5adf057990/LICENSE
