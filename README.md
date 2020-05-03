@@ -6,12 +6,18 @@ A simple way to add a context menu item for Windows to open Windows Terminal.
 
 * Download the [most recent release][release], start the installer.
 * If you've encountered "Windows protected your PC" window, click on "More info"
-  and choose "Run anyway".
+  and choose "Run anyway."
 * Choose options or continue with default options.
 
 ## Uninstall
 
-Uninstall normally through "Add or remove programs".
+Uninstall normally through "Add or remove programs."
+
+## Upgrade
+
+In order to upgrade this application, you should uninstall an old version
+prior to installing a new version.
+An upgrade without uninstalling is not supported.
 
 ## Legal information
 
