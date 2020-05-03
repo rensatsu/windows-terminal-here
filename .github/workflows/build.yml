@@ -9,6 +9,7 @@ jobs:
   build:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: windows-latest
+    name: Build
     steps:
     - uses: actions/checkout@v2
 
@@ -25,6 +26,7 @@ jobs:
     if: github.event_name == 'push' && contains(github.ref, 'refs/tags/')
     needs: build
     runs-on: windows-latest
+    name: Release
     steps:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v2
