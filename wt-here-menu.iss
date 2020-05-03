@@ -14,6 +14,7 @@ OutputBaseFilename=WTHereMenu-Setup
 OutputDir=output
 DisableReadyPage=yes
 UninstallDisplayName={cm:AppName}
+VersionInfoProductName={cm:AppName}
 
 [Tasks]
 Name: setextended; Description: "Hide menu item (reveal on Shift+Right Click)"

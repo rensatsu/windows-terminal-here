@@ -37,7 +37,7 @@ jobs:
       - name: Pack installer
         working-directory: output
         run: |
-          zip wt-here-menu.zip *
+          7z a -tzip wt-here-menu.zip *.exe
 
       - name: Create Release
         id: create_release
