@@ -19,6 +19,19 @@ In order to upgrade this application, you should uninstall an old version
 prior to installing a new version.
 An upgrade without uninstalling is not supported.
 
+## Build
+
+All you need is an Inno Setup Compiler (or Inno Setup Command-line Compiler).
+You can download it from the [official site jrsoftware.org][inno-setup].
+
+Clone the repository. Open the `wt-here-menu.iss` script in the compiler
+and build it. If you want to use a command line, add the Inno Setup's
+directory to your PATH and call iscc:
+
+```
+iscc.exe wt-here-menu.iss
+```
+
 ## Legal information
 
 This project is licensed under [MIT License][license].
@@ -31,3 +44,4 @@ Project inspired by [shanselman/WindowsTerminalHere][inspired].
 [license]: https://github.com/rensatsu/windows-terminal-here/blob/master/LICENSE
 [wt-license]: https://github.com/microsoft/terminal/blob/a6a8937af7af1f98f7e0888b4b10cf5adf057990/LICENSE
 [inspired]: https://github.com/shanselman/WindowsTerminalHere
+[inno-setup]: https://jrsoftware.org/isdl.php
