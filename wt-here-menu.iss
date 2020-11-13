@@ -1,7 +1,7 @@
 [Setup]
 AppId=WinTermHereMenu
 AppName=Windows Terminal Here Menu
-AppVersion=1.0
+AppVersion=1.1
 DefaultDirName={autopf}\WTHereMenu
 DefaultGroupName=Windows Terminal Here Menu
 Compression=lzma2
@@ -19,12 +19,13 @@ Name: setextended; Description: "Hide menu item (reveal on Shift+Right Click)"
 Name: showicon; Description: "Show icon in menu"
 
 [Registry]
-Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu"; Flags: uninsdeletekey
-Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueData: "{cm:WTHere}"
-Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueName: "Icon"; ValueData: "{app}\icon.ico"; Tasks: showicon
-Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueName: "Extended"; Tasks: setextended
-Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu\command"; Flags: uninsdeletekey
-Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu\command"; ValueType: expandsz; ValueData: "{cm:Command} ""%1"""
+; Already supported natively
+; Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu"; Flags: uninsdeletekey
+; Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueData: "{cm:WTHere}"
+; Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueName: "Icon"; ValueData: "{app}\icon.ico"; Tasks: showicon
+; Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueName: "Extended"; Tasks: setextended
+; Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu\command"; Flags: uninsdeletekey
+; Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu\command"; ValueType: expandsz; ValueData: "{cm:Command} ""%1"""
 
 Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; Flags: uninsdeletekey
 Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueData: "{cm:WTHere}"
