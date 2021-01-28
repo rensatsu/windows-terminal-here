@@ -27,12 +27,13 @@ Name: showicon; Description: "Show icon in menu"
 ; Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu\command"; Flags: uninsdeletekey
 ; Root: HKCR; Subkey: "Directory\Shell\WindowsTerminalHereMenu\command"; ValueType: expandsz; ValueData: "{cm:Command} ""%1"""
 
-Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; Flags: uninsdeletekey
-Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueData: "{cm:WTHere}"
-Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueName: "Icon"; ValueData: "{app}\icon.ico"; Tasks: showicon
-Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueName: "Extended"; Tasks: setextended
-Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu\command"; Flags: uninsdeletekey
-Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu\command"; ValueType: expandsz; ValueData: "{cm:Command} ""%V\."""
+; Already supported natively
+;Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; Flags: uninsdeletekey
+;Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueData: "{cm:WTHere}"
+;Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueName: "Icon"; ValueData: "{app}\icon.;ico"; Tasks: showicon
+;Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueName: "Extended"; Tasks: setextended
+;Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu\command"; Flags: uninsdeletekey
+;Root: HKCR; Subkey: "Directory\Background\Shell\WindowsTerminalHereMenu\command"; ValueType: expandsz; ValueData: "{cm:Command} ""%V\."""
 
 Root: HKCR; Subkey: "Drive\Shell\WindowsTerminalHereMenu"; Flags: uninsdeletekey
 Root: HKCR; Subkey: "Drive\Shell\WindowsTerminalHereMenu"; ValueType: string; ValueData: "{cm:WTHere}"
