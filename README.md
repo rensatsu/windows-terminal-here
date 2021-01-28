@@ -2,6 +2,8 @@
 
 A simple way to add a context menu item for Windows to open Windows Terminal.
 
+> ⚠ Windows Terminal has implemented this feature natively, so this hack is now obsolete.
+
 ## Install
 
 * Download the [most recent release][release], start the installer.
