@@ -1,7 +1,7 @@
 [Setup]
 AppId=WinTermHereMenu
 AppName=Windows Terminal Here Menu
-AppVersion=1.1
+AppVersion=1.2
 DefaultDirName={autopf}\WTHereMenu
 DefaultGroupName=Windows Terminal Here Menu
 Compression=lzma2
